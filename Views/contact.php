@@ -1,6 +1,5 @@
 <!--  PARTIE  CONTACT-->
 <?php
-var_dump($_POST);
 if (isset($_POST['submit']) && isset($_POST['fname']) && isset($_POST['email']) && isset($_POST['msg'])):
     $_POST['fname'] = htmlspecialchars($_POST['fname']);
     $_POST['msg'] = htmlspecialchars($_POST['msg']);
