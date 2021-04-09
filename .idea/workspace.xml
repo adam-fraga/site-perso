@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="86d1a0eb-eb4f-435d-9bd8-f7bd5a2af31a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/altorouter/altorouter" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1qcGDcDY9nVx9ALvDZ2G9DfG4Bl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/font" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu-20.04\var\www\html\vitrine\public\assets\font" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu-20.04\var\www\html\vitrine\public\elements" />
+      <recent name="\\wsl$\Ubuntu-20.04\var\www\html\vitrine\Views" />
+      <recent name="\\wsl$\Ubuntu-20.04\var\www\html\vitrine\public" />
+      <recent name="\\wsl$\Ubuntu-20.04\var\www\html\vitrine\public\assets\img" />
+      <recent name="\\wsl$\Ubuntu-20.04\var\www\html\vitrine\public\assets" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86d1a0eb-eb4f-435d-9bd8-f7bd5a2af31a" name="Default Changelist" comment="" />
+      <created>1617371351631</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617371351631</updated>
+      <workItem from="1617371353253" duration="20022000" />
+      <workItem from="1617633891726" duration="68000" />
+      <workItem from="1617701224033" duration="623000" />
+      <workItem from="1617706897288" duration="15518000" />
+      <workItem from="1617783742944" duration="33341000" />
+      <workItem from="1617831304538" duration="338000" />
+      <workItem from="1617879372968" duration="7807000" />
+      <workItem from="1617889769529" duration="2205000" />
+      <workItem from="1617893603898" duration="16565000" />
+      <workItem from="1617956304052" duration="3391000" />
+      <workItem from="1617959972733" duration="17140000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

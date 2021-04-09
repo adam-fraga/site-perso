@@ -1,0 +1,57 @@
+/*----------------------------NAVBAR TC---------------------------------------------------------------------------------*/
+/*IMPORT FONT*/
+@font-face {
+    font-family: "Clearface Gothic LT Std";
+    src: url("../assets/font/CLEARFACEGOTHICLTSTD-ROMAN.OTF");
+}
+
+/*GLOBAL FONT*/
+html,
+body {
+
+    font-family: "Rubik", sans-serif;
+}
+
+/*Banner FONT*/
+#intro {
+    font-family: "Clearface Gothic LT Std", serif;
+}
+
+/* navigation
+ - show navigation always on the large screen devices with (min-width:1024)
+*/
+
+@media (min-width: 1024px) {
+    .top-navbar {
+        display: inline-flex !important;
+    }
+}
+
+/*Main title header*/
+#main-title {
+    font-family: "Clearface Gothic LT Std", serif;
+    color: white;
+
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*FIX SECTION HEIGHT*/
+#projects{
+    height: 700px;
+}
+/*DISPLAY*/
+.display-none{
+    display: none;
+}
+.display-block{
+    display: block;
+}
+#workshop{
+    margin: 20px auto;
+}
+.project:first-child{
+    width: 80%;
+}
+#workshop img   {
+    object-position: center;
+    object-fit: cover;
+}
