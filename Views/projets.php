@@ -2,9 +2,9 @@
     <!--ENTETE-->
     <section id="presentation">
         <div class="px-8 flex flex-col justify-evenly container w-4/5 h-72 bg-white  mx-auto">
-            <h1 class="text-center  title-font  text-4xl font-extrabold leading-10 tracking-tight sm:text-3xl sm:leading-none md:text-3xl text-gray-800"
+            <h1 class="text-center  title-font   font-extrabold leading-10 tracking-tight  sm:text-lg sm:leading-none md:text-3xl text-gray-800"
                 data-aos="fade-in" data-aos-delay="200">PROJETS</h1>
-            <p class="text-gray-400 mx-auto text-center w-8/12 font-bold">Vous trouverez ci-dessous 5 de mes
+            <p class="text-gray-400 mx-auto text-center w-8/12 md:font-bold sm:text-sm sm:font-light">Vous trouverez ci-dessous 5 de mes
                 réalisations, cette
                 section étant évolutive comprennez qu'il est possible que je remplace ou mette à jour certains de ces
                 projets. Vous pourrez bien entendu retrouver le code source de chacun d'entre eux sur

@@ -1,13 +1,13 @@
-<main class="profile-page font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover"
+<main class="font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover"
       style="background-image:url('https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80');js ; background-position: bottom">
     <div class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
 
         <!--Main Col-->
-        <div data-aos="fade-right" data-aos-delay="500"
+        <div  data-aos="fade-right" data-aos-delay="500"
              data-aos-anchor="#example-anchor"
              data-aos-offset="500"
              data-aos-duration="1000"id="profile"
-             class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-black mx-6 lg:mx-0">
+             class=" w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-black mx-6 lg:mx-0">
 
             <div class="p-4 md:p-12 text-center lg:text-left">
                 <!-- Image for mobile view-->

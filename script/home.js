@@ -14,7 +14,7 @@ function pullMyinfos(e) {
         return false
     }
     httprequest.onreadystatechange = alertContents;
-    httprequest.open('GET', 'elements/additionnal-content/about-me.html', true);
+    httprequest.open('GET', 'Views/elements/additionnal-content/about-me.html', true);
     httprequest.send();
 
     function alertContents() {
@@ -41,10 +41,11 @@ function pullAboutDev(e) {
         return false
     }
     httprequest.onreadystatechange = alertContents;
-    httprequest.open('GET', 'elements/additionnal-content/about-dev.html', true);
+    httprequest.open('GET', 'Views/elements/additionnal-content/about-dev.html', true);
     httprequest.send();
 
     function alertContents() {
+        console.log(httprequest.readyState)
         if (httprequest.readyState === XMLHttpRequest.DONE) {
             if (httprequest.status === 200) {
                 aboutDev.innerHTML = this.responseText;

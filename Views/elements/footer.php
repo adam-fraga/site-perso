@@ -146,7 +146,7 @@
     </div>
 </footer>
 
-<script type="text-javascript" src="script/tailwind-components.js"></script>
+<script type="text-javascript" src="../../script/tailwind-components.js"></script>
 <!--JQUERY-->
 <script
         src="https://code.jquery.com/jquery-3.6.0.js"

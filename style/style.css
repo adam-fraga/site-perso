@@ -51,7 +51,3 @@ body {
 .project:first-child{
     width: 80%;
 }
-#workshop img   {
-    object-position: center;
-    object-fit: cover;
-}

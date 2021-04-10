@@ -3,6 +3,64 @@
   <component name="ChangeListManager">
     <list default="true" id="86d1a0eb-eb4f-435d-9bd8-f7bd5a2af31a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/profil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/projets.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/projets.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/creation-de-sites-web.svg:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/font/CLEARFACEGOTHICLTSTD-BLACK.OTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/font/CLEARFACEGOTHICLTSTD-LIGHT.OTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/font/CLEARFACEGOTHICLTSTD-ROMAN.OTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/1280px-Git-logo.svg.png:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/ADWEB.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/ADWEB.gif:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/ADWEB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/ADico.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/ADico.ico:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/Adam2NB.jpg:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/Adam3NB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/Adam500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/AdamG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/AdamNB.jpg:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/CSS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/JQUERY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/JS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/Logo blanc.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/MB.jpg:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/PHP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/apple-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/boutique-min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/boutique-min.png:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/camping-min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/camping-min.png:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/devices.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/devices.png:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/git.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/html.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/node.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/react.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/react.png:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/soon-min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/soon-min.png:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/symfony.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/symfony.png:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/tailwind css.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/tailwind css.png:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/assets/img/texture.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/dist/tailwind.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/elements/additionnal-content/about-dev.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/elements/additionnal-content/about-me.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/elements/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/elements/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/elements/mkdir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/script/404.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/script/home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/script/project.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/script/tailwind-components.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/style/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpdocs/style/tailwind.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +107,11 @@
       <recent name="\\wsl$\Ubuntu-20.04\var\www\html\vitrine\public\assets\font" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu-20.04\var\www\html\MyPortfolio\Views" />
+      <recent name="\\wsl$\Ubuntu-20.04\var\www\html\MyPortfolio" />
+      <recent name="\\wsl$\Ubuntu-20.04\var\www\html\MyPortfolio\httpdocs" />
       <recent name="\\wsl$\Ubuntu-20.04\var\www\html\vitrine\public\elements" />
       <recent name="\\wsl$\Ubuntu-20.04\var\www\html\vitrine\Views" />
-      <recent name="\\wsl$\Ubuntu-20.04\var\www\html\vitrine\public" />
-      <recent name="\\wsl$\Ubuntu-20.04\var\www\html\vitrine\public\assets\img" />
-      <recent name="\\wsl$\Ubuntu-20.04\var\www\html\vitrine\public\assets" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -76,7 +134,9 @@
       <workItem from="1617956304052" duration="3391000" />
       <workItem from="1617959972733" duration="17140000" />
       <workItem from="1617987407747" duration="616000" />
-      <workItem from="1617989779638" duration="458000" />
+      <workItem from="1617989779638" duration="1059000" />
+      <workItem from="1618051314931" duration="738000" />
+      <workItem from="1618058526597" duration="6221000" />
     </task>
     <servers />
   </component>

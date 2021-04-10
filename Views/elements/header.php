@@ -4,8 +4,8 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="theme-color" content="#000000"/>
-    <link rel="shortcut icon" href="../assets/img/ADico.ico"/>
-    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png"/>
+    <link rel="shortcut icon" href="../../assets/img/ADico.ico"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="../../assets/img/apple-icon.png"/>
     <!--    AOS CSS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
           integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
@@ -19,9 +19,9 @@
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"/>
     <!--    TAILWIND COMPILED CSS-->
-    <link rel="stylesheet" href="../dist/tailwind.css">
+    <link rel="stylesheet" href="../../dist/tailwind.css">
     <!--    MY CSS-->
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../../style/style.css">
     <title>Adam Fraga</title>
 </head>
 <body class="text-gray-800 antialiased">

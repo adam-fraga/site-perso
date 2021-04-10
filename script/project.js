@@ -31,7 +31,7 @@ function prevProject(e) {
     // Switch class from main project to last project
     firstProject.classList.remove('project', 'w-96', 'h-72', 'mb-12', 'mx-5', 'flex', 'justify-center')
     lastProject.classList.remove('project', 'inline-block', 'h-2/4', 'md:w-60', 'mx-5');
-    firstProject.classList.add('project', 'inline-block', 'h-2/4', 'md:w-60', 'mx-5')
+    firstProject.classList.add('project', 'inline-block', 'h-2/4',  'md:w-60', 'mx-5')
     lastProject.classList.add('project', 'w-96', 'h-72', 'mb-12', 'mx-5', 'flex', 'justify-center')
     container.prepend(lastProject);
 }
@@ -39,3 +39,5 @@ function prevProject(e) {
 // Listenner
 btnPrev.addEventListener('click', prevProject);
 btnNext.addEventListener('click', nextProject);
+
+// Fix footer respnsive later

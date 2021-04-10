@@ -52,7 +52,7 @@
                 <div data-aos="fade-in" data-aos-delay="200" class="w-full md:w-3/12 ml-auto mr-auto px-4">
                     <img
                             alt="..."
-                            class="max-w-full  rounded-lg shadow-lg"
+                            class="md:max-w-full rounded-lg shadow-lg"
                             src="assets/img/Adam3NB.jpg"
                     />
                 </div>
@@ -84,14 +84,10 @@
             <h2 class="text-gray-200 text-center text-3xl mb-12"></h2>
             <div class=" p-16 flex flex-wrap items-center">
                 <div id="about-dev" class="w-full md:w-5/12 px-4 mr-auto ml-auto">
-                    <h3 data-aos="fade-in" data-aos-delay="200"
-                        class="mb-12 title-font mb-4 text-4xl font-extrabold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-4xl text-gray-200">
-                        Pourquoi le Web?
-                    </h3>
                     <button id="btnDev"
-                            class="ml-9 text-yellow-300 bg-transparent border border-solid border-yellow-300 hover:bg-yellow-300 hover:text-white active:bg-yellow-400 font-bold uppercase px-8 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                            class="ml-9 text-yellow-300 bg-transparent border border-solid border-yellow-300 hover:bg-yellow-300 hover:text-white active:bg-yellow-400 font-bold uppercase px-3 py-2 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                             type="button">
-                        Un peu de lecture
+                        Un peu de lecture?
                     </button>
                 </div>
                 <div class="bg-black w-full md:w-7/12 px-4 mr-auto ml-auto">
@@ -124,10 +120,10 @@
                         <div class="mb-4 flex flex-col justify-center ">
                             <img class="w-1/6 mx-auto mb-2" src="assets/img/html.png" alt="Logos html">
                             <ul class="mx-auto list-disc text-lg">
-                                <li class="" >Structurer une page web en HTML</li>
-                                <li class="" >Métadonnées</li>
-                                <li class="" >Hyperliens</li>
-                                <li class="" >Mise en forme avancée du texte</li>
+                                <li class="">Structurer une page web en HTML</li>
+                                <li class="">Métadonnées</li>
+                                <li class="">Hyperliens</li>
+                                <li class="">Mise en forme avancée du texte</li>
                             </ul>
                         </div>
                     </div>
@@ -145,10 +141,12 @@
                         <div class="mb-4 flex flex-col justify-center ">
                             <img class="w-1/6 mx-auto mb-2" src="assets/img/CSS.png" alt="Logos Css">
                             <ul class="mx-auto">
-                                <li class="text-lg list-disc" >Mettre en forme une page html</li>
-                                <li class="text-lg list-disc" >Utilisation de framework (Bootstrap, Materialise, tailwind)</li>
-                                <li class="text-lg list-disc" >Modeliser un layout (Flexbox/Grid)</li>
-                                <li class="text-lg list-disc" >Utilisation de SASS</li>
+                                <li class="md:text-lg sm:text-sm list-disc">Mettre en forme une page html</li>
+                                <li class="md:text-lg sm:text-sm list-disc">Utilisation de framework (Bootstrap,
+                                    Materialise, tailwind)
+                                </li>
+                                <li class="md:text-lg sm:text-sm list-disc">Modeliser un layout (Flexbox/Grid)</li>
+                                <li class="md:text-lg sm:text-sm list-disc">Utilisation de SASS</li>
                             </ul>
                         </div>
                     </div>
@@ -165,35 +163,39 @@
                     <div data-aos="fade-left" data-aos-delay="300"
                          class="order-1 flex flex-col justify-center w-5/12 px-6 py-4">
                         <div class="mb-4 flex flex-col justify-center ">
-                            <img class="w-1/6 mx-auto mb-2" src="assets/img/PHP.png" alt="Logos PHP">
+                            <img class="w-1/6 mx-auto mb-2" src="assets/img/photoshop.png" alt="Logos Adobe Photoshop">
                             <ul class="mx-auto">
-                                <li class="text-lg list-disc" >Mettre en place un serveur via la pile LAMP</li>
-                                <li class="text-lg list-disc" >Gestionnaire de dépendance Composer</li>
-                                <li class="text-lg list-disc" >Paradigmes Orienté objet et procédural</li>
-                                <li class="text-lg list-disc" >Mise en place d'un routeur</li>
-                                <li class="text-lg list-disc" >Utilisation du Framework Symfony</li>
+                                <li class="md:text-lg sm:text-sm list-disc">Utilisation courante de la suite Adobe</li>
+                                <li class="md:text-lg sm:text-sm list-disc">Photoshop pour la retouche photo ou
+                                    Photomontage
+                                </li>
+                                <li class="md:text-lg sm:text-sm list-disc">Design de logos via illustrator</li>
+                                <li class="md:text-lg sm:text-sm list-disc">Maquettage dd'interface via Adobe XD</li>
                             </ul>
                         </div>
                     </div>
                 </div>
+
 
                 <!-- left timeline -->
                 <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                     <div class="order-1 w-5/12"></div>
                     <div data-aos="fade-in" data-aos-delay="400"
                          class="z-20 flex items-center order-1 bg-yellow-300 shadow-xl w-8 h-8 rounded-full">
-                        <h4 class="mx-auto text-white font-semibold text-lg">4</h4>
+                        <h4 class="mx-auto text-white font-semibold text-lg">2</h4>
                     </div>
                     <div data-aos="fade-right" data-aos-delay="400"
                          class="order-1 flex flex-col justify-center w-5/12 px-6 py-4">
                         <div class="mb-4 flex flex-col justify-center ">
-                            <img class="w-1/6 mb-2 mx-auto" src="assets/img/JS.png" alt="Logos PHP">
+                            <img class="w-1/6 mx-auto mb-2" src="assets/img/SQL.png" alt="Logos Mysql">
                             <ul class="mx-auto">
-                                <li class="text-lg list-disc" >Gestionnaire de packets node (npm)</li>
-                                <li class="text-lg list-disc" >Programmation Asynchrone</li>
-                                <li class="text-lg list-disc" >Utilisation d'Ajax avec Jquery et Xmlhttprequest</li>
-                                <li class="text-lg list-disc" >Intégrer une API externe</li>
-                                <li class="text-lg list-disc" >Utilisation de la librairie Jquery</li>
+                                <li class="md:text-lg sm:text-sm list-disc">Langege SQL</li>
+                                <li class="md:text-lg sm:text-sm list-disc">Mettre en place un modèle relationnel de BDD
+                                    avec UML
+                                </li>
+                                <li class="md:text-lg sm:text-sm list-disc">Créer et faire des requête sur une BDD</li>
+                                <li class="md:text-lg sm:text-sm list-disc">Maitrise de PhpMyAdmin et Adminer</li>
+                                <li class="md:text-lg sm:text-sm list-disc">Administrer une BDD</li>
                             </ul>
                         </div>
                     </div>
@@ -204,19 +206,69 @@
                     <div class="order-1 w-5/12"></div>
                     <div data-aos="fade-in" data-aos-delay="500"
                          class="z-20 flex items-center order-1 bg-yellow-300 shadow-xl w-8 h-8 rounded-full">
-                        <h4 class="mx-auto font-semibold text-lg text-white">5</h4>
+                        <h4 class="mx-auto font-semibold text-lg text-white">3</h4>
                     </div>
                     <div data-aos="fade-left" data-aos-delay="500"
                          class="order-1 flex flex-col justify-center w-5/12 px-6 py-4">
                         <div class="mb-4 flex flex-col justify-center ">
+                            <img class="w-1/6 mx-auto mb-2" src="assets/img/PHP.png" alt="Logos PHP">
+                            <ul class="mx-auto">
+                                <li class="md:text-lg sm:text-sm list-disc">Mettre en place un serveur via la pile
+                                    LAMP
+                                </li>
+                                <li class="md:text-lg sm:text-sm list-disc">Gestionnaire de dépendance Composer</li>
+                                <li class="md:text-lg sm:text-sm list-disc">Paradigmes Orienté objet et procédural</li>
+                                <li class="md:text-lg sm:text-sm list-disc">Mise en place d'un routeur</li>
+                                <li class="md:text-lg sm:text-sm list-disc">Framework Symfony (en cours...)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- left timeline -->
+                <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                    <div class="order-1 w-5/12"></div>
+                    <div data-aos="fade-in" data-aos-delay="600"
+                         class="z-20 flex items-center order-1 bg-yellow-300 shadow-xl w-8 h-8 rounded-full">
+                        <h4 class="mx-auto text-white font-semibold text-lg">4</h4>
+                    </div>
+                    <div data-aos="fade-right" data-aos-delay="600"
+                         class="order-1 flex flex-col justify-center w-5/12 px-6 py-4">
+                        <div class="mb-4 flex flex-col justify-center ">
+                            <img class="w-1/6 mb-2 mx-auto" src="assets/img/JS.png" alt="Logos PHP">
+                            <ul class="mx-auto">
+                                <li class="md:text-lg sm:text-sm list-disc">Gestionnaire de packets node (npm)</li>
+                                <li class="md:text-lg sm:text-sm list-disc">Programmation Asynchrone</li>
+                                <li class="md:text-lg sm:text-sm list-disc">Utilisation d'Ajax avec Jquery et
+                                    Xmlhttprequest
+                                </li>
+                                <li class="md:text-lg sm:text-sm list-disc">Intégrer une API externe</li>
+                                <li class="md:text-lg sm:text-sm list-disc">Utilisation de la librairie Jquery</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- right timeline -->
+                <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                    <div class="order-1 w-5/12"></div>
+                    <div data-aos="fade-in" data-aos-delay="700"
+                         class="z-20 flex items-center order-1 bg-yellow-300 shadow-xl w-8 h-8 rounded-full">
+                        <h4 class="mx-auto font-semibold text-lg text-white">5</h4>
+                    </div>
+                    <div data-aos="fade-left" data-aos-delay="700"
+                         class="order-1 flex flex-col justify-center w-5/12 px-6 py-4">
+                        <div class="mb-4 flex flex-col justify-center ">
                             <img class="w-1/6 mb-4 mx-auto" src="assets/img/git.png" alt="Logos PHP">
                             <ul class="mx-auto">
-                                <li class="text-lg list-disc" >Initialiser un dépot</li>
-                                <li class="text-lg list-disc" >Récupérer un dépot distant</li>
-                                <li class="text-lg list-disc" >Travailler sur un depot distant</li>
-                                <li class="text-lg list-disc" >Naviguer et créer des branch sur un dépot</li>
-                                <li class="text-lg list-disc" >Merge et Rebase</li>
-                                <li class="text-lg list-disc" >Résolution de conflits</li>
+                                <li class="md:text-lg sm:text-sm list-disc">Initialiser un dépot</li>
+                                <li class="md:text-lg sm:text-sm list-disc">Récupérer un dépot distant</li>
+                                <li class="md:text-lg sm:text-sm list-disc">Travailler sur un dépot distant</li>
+                                <li class="md:text-lg sm:text-sm list-disc">Naviguer et créer des branch sur un dépot
+                                </li>
+                                <li class="md:text-lg sm:text-sm list-disc">Merge et Rebase</li>
+                                <li class="md:text-lg sm:text-sm list-disc">Résolution de conflits</li>
                             </ul>
                         </div>
                     </div>
@@ -225,16 +277,16 @@
                 <!-- left timeline -->
                 <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                     <div class="order-1 w-5/12"></div>
-                    <div data-aos="fade-in" data-aos-delay="600"
+                    <div data-aos="fade-in" data-aos-delay="800"
                          class="z-20 flex items-center order-1 bg-yellow-300 shadow-xl w-8 h-8 rounded-full">
                         <h4 class="mx-auto text-white font-semibold text-lg">6</h4>
                     </div>
-                    <div data-aos="fade-right" data-aos-delay="600"
+                    <div data-aos="fade-right" data-aos-delay="800"
                          class="order-1 flex flex-col justify-center w-5/12 px-6 py-4">
                         <div class="mb-4 flex flex-col justify-center ">
                             <img class="w-1/6 mb-2 mx-auto" src="assets/img/node.png" alt="Logos Node JS">
                             <ul class="mx-auto">
-                                <li class="text-lg list-disc" >En cours...</li>
+                                <li class="md:text-lg sm:text-sm list-disc">En cours...</li>
                             </ul>
                         </div>
                     </div>

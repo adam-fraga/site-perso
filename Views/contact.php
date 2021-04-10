@@ -39,7 +39,7 @@ endif;
                         <i class="fas fa-book-open text-xl"></i>
                     </div>
                     <h6 class="text-xl mt-5 font-semibold text-gray-800">
-                        Devis Gratuit
+                        Créez votre site
                     </h6>
                     <p class="mt-2 mb-4 text-gray-400">
                         Un site internet est bien plus qu'un simple outil, il vous permet surtout de générer plus de
@@ -53,7 +53,7 @@ endif;
                         <i class="fas fa-comment-medical text-xl"></i>
                     </div>
                     <h5 class="text-xl mt-5 font-semibold text-gray-800">
-                        Conseils pour votre site
+                        Quelques conseils?
                     </h5>
                     <p class="mt-2 mb-4 text-gray-400">
                         Vous disposez déja d'un site Web mais avez besoin de conseil quand à l'optimisation de celui-ci?
@@ -65,7 +65,7 @@ endif;
                     >
                         <i class="fab fa-stack-exchange text-xl"></i>
                     </div>
-                    <h5 class="text-xl mt-5 font-semibold text-black">Échanger simplement</h5>
+                    <h5 class="text-xl mt-5 font-semibold text-black">Échangons simplement</h5>
                     <p class="mt-2 mb-4 text-gray-400">
                         Que vous soyez un recruteur, un client curieux ou encore un développeur passionné, c'est avec
                         plaisir que j'échangerai avec vous !
