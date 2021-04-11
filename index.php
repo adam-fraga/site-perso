@@ -9,6 +9,10 @@ $router->map('GET', '/', function () {
 $router->map('GET', '/contact', function () {
     require __DIR__ . '/Views/contact.php';
 });
+//For my contact form
+$router->map('POST', '/contact', function () {
+    require __DIR__ . '/Views/contact.php';
+});
 $router->map('GET', '/profil', function () {
     require __DIR__ . '/Views/profil.php';
 });

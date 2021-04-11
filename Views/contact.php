@@ -1,27 +1,39 @@
 <!--  PARTIE  CONTACT-->
 <?php
-if (isset($_POST['submit']) && isset($_POST['fname']) && isset($_POST['email']) && isset($_POST['msg'])):
+//Create object PHP Mailer
+if (isset($_POST['fname']) && isset($_POST['email']) && isset($_POST['msg'])):
+//    Secure entry
     $_POST['fname'] = htmlspecialchars($_POST['fname']);
     $_POST['msg'] = htmlspecialchars($_POST['msg']);
     $_POST['email'] = htmlspecialchars($_POST['email']);
     $fname = strip_tags($_POST['fname']);
     $msg = strip_tags($_POST['msg']);
     $email = strip_tags($_POST['email']);
+//    Regex mail
     $regmail = '/^[\w\-]+(\.[\w\-]+)*@[\w\-]+(\.[\w\-]+)*\.[\w\-]{2,}$/';
     $checkMail = preg_match($regmail, $email) ? true : false;
     if ($checkMail === true) {
-        // Le message
-        $message = $msg;
-// Dans le cas où nos lignes comportent plus de 70 caractères, nous les coupons en utilisant wordwrap()
-        $message = wordwrap($message, 70, "\r\n");
-// Envoi du mail
-        mail('adam.fraga@laplateforme.io', $fname, $message);
-    } else $email = false;
+//        headers beforme sendmail
+        $headers = 'From:' . $fname . "\n";
+        $headers .= 'Reply-To: adresse_de_reponse@fai.fr' . "\n";
+        $headers .= 'Content-Type: text/plain; charset="iso-8859-1"' . "\n";
+        $headers .= 'Content-Transfer-Encoding: 8bit';
+//Sendmail
+        mail('adam.fraga@laplateforme.io', 'Formulaire de contacte:', $msg, $headers);
+        $msgSend=true;
+    } else $msgSend = false;
 else: $input = false;
 endif;
-//?>
+?>
 <main>
-    <section style="height: 100vh" class="p-12">
+    <?php if (isset($msgSend) && $msgSend === true): ?>
+        <div class="mx-auto w-8/12 p-6 border h-72 flex flex-col justify-center border-black bg-black text-center rounded-lg shadow-2xl my-32">
+            <p class="text-3xl mx-auto text-green-500">Votre message à bien été envoyé!</p><br>
+            <p class="text-lg mx-auto text-gray-200">Je tâcherai de vous répondre dans les prochaines 24h!</p>
+            <a href="/" class="text-blue-500 hover:underline hover:text-white my-6"><small>Revenir à la page d'accueil</small></a>
+        </div>
+    <?php endif; ?>
+    <section style="<?= isset($msgSend) && $msgSend === true ? "display:none;" : '' ?>height: 100vh" class="p-12">
         <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
             <div class="flex flex-wrap text-center justify-center">
                 <div class="w-full lg:w-6/12 px-4">
@@ -74,7 +86,7 @@ endif;
             </div>
         </div>
     </section>
-    <section class="relative block py-24 lg:pt-0 bg-white my-32" data-aos="fade-in" data-aos-delay="500">
+    <section style="<?= isset($msgSend) && $msgSend === true ? "display:none;" : '' ?> "class="relative block py-24 lg:pt-0 bg-white my-32" data-aos="fade-in" data-aos-delay="500">
         <div class="container mx-auto px-4">
             <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
                 <div class="w-full lg:w-6/12 px-4">
@@ -87,7 +99,7 @@ endif;
                                 Completez ce formulaire, je vous répond dans les 24h.
                             </p>
                             <!--                            FORMULAIRE DE MESSAGE-->
-                            <form action="" method="post">
+                            <form method="post">
                                 <div class="relative w-full mb-3 mt-8">
                                     <label
                                             class="block uppercase text-gray-300 text-xs font-bold mb-2"
@@ -144,6 +156,7 @@ endif;
                                     >
                                         Envoyer mon message
                                     </button>
+
                             </form>
                         </div>
                     </div>
